@@ -14,7 +14,8 @@ import { MaterialModule } from './material.module';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,   
+    FormsModule  //precisa importar ele por causa do ngModel, se quiser usar
   ],
   providers: [],
   bootstrap: [AppComponent]
